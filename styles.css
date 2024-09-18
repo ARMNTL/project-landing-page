@@ -152,3 +152,40 @@ a {
     font-weight: 700;
     align-self: flex-end;
 }
+
+.call-to-action-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    padding: 48px 0;
+    margin: 100px 200px;
+    border-radius: 8px;
+}
+
+.call-to-action-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 0 24px;
+    cursor: pointer;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.call-to-action {
+    font-size: 24px;
+    font-weight: 600;
+    color: #e5e7eb;
+}
+
+.call-to-action-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}

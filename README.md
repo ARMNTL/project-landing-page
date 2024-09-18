@@ -388,3 +388,64 @@ a {
 69. Nest another `<div class="call-to-action-secondary">Sign up for our product by clicking that button right over there!</div>` in `call-to-action-text`.
 
 > Easy commit!
+
+### The Call To Action Section (CSS)
+
+70. Flex `call-to-action-container` and set background color.
+
+```css
+.call-to-action-container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    padding: 48px 100px;
+    margin: 100px 200px;
+    border-radius: 8px;
+}
+```
+
+71. Set `call-to-action-button`.
+
+```css
+.call-to-action-button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    font-size: 18px;
+    font-weight: 600;
+    border: 2px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 0 24px;
+    cursor: pointer;
+}
+```
+
+72. Flex `call-to-action-text`.
+
+```css
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+```
+
+73. Set `call-to-action`.
+
+```css
+.call-to-action {
+    font-size: 24px;
+    font-weight: 600;
+    color: #e5e7eb;
+}
+```
+
+74. Set `call-to-action-secondary`.
+
+```css
+.call-to-action-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+```
+
+> Almost there... Commit!
