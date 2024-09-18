@@ -2,11 +2,15 @@
 
 ## Intro
 
-todo
+This is the first project from TOP. Meanies! So much to learn to complete this one. HTML, CSS, Flexbox. But, worth every sweat!
+
+I struggled a bit containing my OCD side NOT to count the pixels. lol
+
+Right below the **Thanks**, I logged everything I did. I hope it can be of help to anybody that is struggling.
 
 ## Thanks
 
-todo
+To The Odin Project! TOP! TOP! TOP!
 
 ## How I made this landing page (mistakes and fixes included)
 
@@ -33,7 +37,7 @@ I used VSCode for Windows.
 > 5. `touch index.html styles.css`.
 > 6. `code .`.
 
-10. In `index.html` type `!` and enter for the boilerplate.
+10. In `index.html` type `!` and press enter for the boilerplate.
 11. Change the title.
 12. Add `<link rel="stylesheet" href="./styles.css" />` under the title.
 
@@ -41,7 +45,7 @@ I used VSCode for Windows.
 
 ### The Header (HTML)
 
-> Future Me: I like to see the changes for every step. Right click `index.html` in the file explorer then Copy Path. Paste this in your browser's url input field. Refresh it to see any changes in `index.html` and/or `styles.css`.
+> Future Me: I like to see the changes for every step. Right click `index.html` in the file explorer then Copy Path. Paste this in your browser's url input field. Refresh it to see any changes made in `index.html` and/or `styles.css`.
 
 #### The Top Part: Nav
 
@@ -93,6 +97,8 @@ body {
     font-family: Roboto, Arial, sans-serif, system-ui;
 }
 ```
+
+> I wonder where is a good place to set the font.
 
 32. Set font and background color.
 
@@ -449,3 +455,49 @@ a {
 ```
 
 > Almost there... Commit!
+
+### The Footer (HTML)
+
+75. Nest a `<footer>Copyright © The Odin Project 2021</footer>` at to bottom of `<body>`.
+    > 2021... I wish I knew about the Odin Project by then... three years ago...
+
+> Only this one time! Skip commit! Buhahaha!
+
+### The Footer (CSS)
+
+76. Flex `<footer>` and set text and background color as instructed.
+
+```css
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-size: 20px;
+    padding: 36px 0;
+}
+```
+
+### Some things I changed after finishing
+
+77. Added to `header-hero-container`.
+
+```css
+.header-hero-container {
+    ...
+    justify-content: center;
+    align-items: center;
+}
+```
+
+78. Added to `hero-img`.
+
+```css
+.hero-img {
+    ...
+    align-self: stretch;
+}
+```
+
+Finally FINISHED!!!
