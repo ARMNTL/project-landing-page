@@ -306,7 +306,80 @@ a {
 47. Nest a `<div class="information-header-text">Some random information.</div>` in `information-container`.
 48. Nest a `<div class="cards-container"></div>` in `information-container` under `information-header-text`.
 49. Nest four (4) `<div class="card"></div>` in `cards-container`.
-50. Nest four (4) `<img src="#" alt="some illustraion or image">` in `card`.
+50. Nest four (4) `<img src="#" alt="some image">` in `card`.
 51. Nest four (4) `<p>this is some subtext under an illustration or image</p>` in `card` under `<img>`.
 
 > Commit?
+
+### The Information Section (CSS)
+
+52. Change header text as instructed.
+
+```css
+.information-header-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+```
+
+53. Flex information-container.
+
+```css
+.information-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 240px;
+    gap: 48px;
+}
+```
+
+54. Flex cards-container.
+
+```css
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 36px;
+}
+```
+
+> Here, I decided to go wrap expecting more info cards will be added.
+
+55. Flex card.
+
+```css
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+```
+
+56. Set the card images sizes and border
+
+```css
+.card img {
+    min-width: 160px;
+    min-height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+```
+
+57. Set the card subtext width and alignment
+
+```css
+.card p {
+    max-width: 160px;
+    text-align: center;
+}
+```
+
+> Got commit?
