@@ -298,3 +298,15 @@ a {
 ```
 
 > Commit, commit, commit!
+
+### The Information Section (HTML)
+
+45. Nest a `<section></section>` in `<body>` under `<header>`.
+46. Nest a `<div class="information-container"></div>` in `<section>`.
+47. Nest a `<div class="information-header-text">Some random information.</div>` in `information-container`.
+48. Nest a `<div class="cards-container"></div>` in `information-container` under `information-header-text`.
+49. Nest four (4) `<div class="card"></div>` in `cards-container`.
+50. Nest four (4) `<img src="#" alt="some illustraion or image">` in `card`.
+51. Nest four (4) `<p>this is some subtext under an illustration or image</p>` in `card` under `<img>`.
+
+> Commit?
