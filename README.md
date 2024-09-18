@@ -362,7 +362,7 @@ a {
 }
 ```
 
-56. Set the card images sizes and border
+56. Set the card images sizes and border.
 
 ```css
 .card img {
@@ -373,7 +373,7 @@ a {
 }
 ```
 
-57. Set the card subtext width and alignment
+57. Set the card subtext width and alignment.
 
 ```css
 .card p {
@@ -383,3 +383,12 @@ a {
 ```
 
 > Got commit?
+
+### The Testimonial Section (HTML)
+
+58. Nest a `<section></section>` under the last `<section>`.
+59. Nest a `<div class="testimonial-container"></div>` in `<section>`
+60. Nest a `<p>This is an inspiring quote ... it looks nice.</p>` in `testimonial-container`.
+61. Nest a `<div class="signature">-Thor, God of Thunder</div>` in `testimonial-container` under `testimonial`.
+
+> Too soon to commit?
