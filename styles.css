@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    /* border: 1px solid yellow; */
+}
+
+body {
+    font-family: Roboto, Arial, sans-serif, system-ui;
+}
+
+header {
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0 240px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+.header-links ul {
+    display: flex;
+    list-style-type: none;
+    gap: 1em;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-hero-container {
+    display: flex;
+    gap: 2em;
+    padding: 100px 0;
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.hero-img {
+    flex: 1;
+    background-color: #6d747d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-main-text {
+    color: #f9faf8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero-desc-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.header-logo a {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero-signup-button button {
+    border: none;
+    border-radius: 8px;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 8px 24px;
+    font-size: 18px;
+    font-weight: bold;
+}
