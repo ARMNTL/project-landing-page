@@ -377,3 +377,14 @@ a {
 ```
 
 > Commit already?
+
+### The Call To Action Section (HTML)
+
+64. Nest a `<section></section>` in `<body>` under the last testimonial `<section>`.
+65. Nest a `<div class="call-to-action-container"></div>` in `<section>`.
+66. Nest a `<div class="call-to-action-text"></div>` in `call-to-action-container`.
+67. Nest also a `<button class="call-to-action-button">Sign up</button>` in `call-to-action-container`.
+68. Nest a `<div class="call-to-action">Call to action! It's time!</div>` in `call-to-action-text`.
+69. Nest another `<div class="call-to-action-secondary">Sign up for our product by clicking that button right over there!</div>` in `call-to-action-text`.
+
+> Easy commit!
