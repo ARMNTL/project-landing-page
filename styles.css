@@ -131,3 +131,24 @@ a {
     max-width: 160px;
     text-align: center;
 }
+
+.testimonial-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 120px 320px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.signature {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}

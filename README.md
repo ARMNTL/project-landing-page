@@ -66,54 +66,6 @@ I used VSCode for Windows.
 28. Nest a `<button>Sign up</button>` in `"hero-signup-button"`.
 29. Nest a `<img src="#" alt="this is a placeholder for an image">` in `"hero-img"`.
 
-The `index.html` should look like
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>My Odin Landing Page Project</title>
-        <link rel="stylesheet" href="./styles.css" />
-    </head>
-    <body>
-        <header>
-            <div class="header-container">
-                <div class="header-nav">
-                    <div class="header-logo">Header Logo</div>
-                    <div class="header-links">
-                        <ul>
-                            <li>header link one</li>
-                            <li>header link two</li>
-                            <li>header link three</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="header-hero">
-                    <div class="hero-text-container">
-                        <div class="hero-main-text">
-                            This website is awesome
-                        </div>
-                        <div class="hero-desc-text">
-                            This website has some subtext that goes here under
-                            the main title. It's a smaller font and the color is
-                            lower contrast
-                        </div>
-                        <div class="hero-signup-button">
-                            <button>Sign up</button>
-                        </div>
-                    </div>
-                    <div class="hero-img">
-                        <img src="#" alt="this is a placeholder for an image" />
-                    </div>
-                </div>
-            </div>
-        </header>
-    </body>
-</html>
-```
-
 > Time to commit!
 
 ### The Header (CSS)
@@ -151,7 +103,7 @@ header {
 }
 ```
 
-33. Flex the header container.
+33. Flex the `header-container`.
 
 ```css
 .header-container {
@@ -160,7 +112,7 @@ header {
 }
 ```
 
-34. Flex the header nav.
+34. Flex the `header-nav`.
 
 ```css
 .header-nav {
@@ -169,7 +121,7 @@ header {
 }
 ```
 
-35. Flex the header links, make the bullet points disappear and set a gap.
+35. Flex the `header-links`, make the bullet points disappear and set a gap.
 
 ```css
 .header-links ul {
@@ -199,7 +151,7 @@ a {
 }
 ```
 
-37. Flex the header hero container.
+37. Flex the `header-hero-container`.
 
 ```css
 .header-hero-container {
@@ -209,7 +161,7 @@ a {
 }
 ```
 
-38. Add padding to header-container.
+38. Add padding to `header-container`.
 
 ```css
 .header-container {
@@ -218,7 +170,7 @@ a {
 }
 ```
 
-39. Add padding to header-nav.
+39. Add padding to `header-nav`.
 
 ```css
 .header-nav {
@@ -227,7 +179,7 @@ a {
 }
 ```
 
-40. Flex grow hero-text-container and hero-img.
+40. Flex grow `hero-text-container` and `hero-img`.
 
 ```css
 .hero-text-container {
@@ -323,7 +275,7 @@ a {
 }
 ```
 
-53. Flex information-container.
+53. Flex `information-container`.
 
 ```css
 .information-container {
@@ -336,7 +288,7 @@ a {
 }
 ```
 
-54. Flex cards-container.
+54. Flex `cards-container`.
 
 ```css
 .cards-container {
@@ -350,7 +302,7 @@ a {
 
 > Here, I decided to go wrap expecting more info cards will be added.
 
-55. Flex card.
+55. Flex `card`.
 
 ```css
 .card {
@@ -362,7 +314,7 @@ a {
 }
 ```
 
-56. Set the card images sizes and border.
+56. Set the `card` images sizes and border.
 
 ```css
 .card img {
@@ -373,7 +325,7 @@ a {
 }
 ```
 
-57. Set the card subtext width and alignment.
+57. Set the `card` subtext width and alignment.
 
 ```css
 .card p {
@@ -392,3 +344,36 @@ a {
 61. Nest a `<div class="signature">-Thor, God of Thunder</div>` in `testimonial-container` under `testimonial`.
 
 > Too soon to commit?
+
+### The Testimonial Section (CSS)
+
+62. Set testiminial section background color and text as instructed. Also flex `testimonial-container`.
+
+```css
+.testimonial-container {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    padding: 120px 320px;
+}
+
+.testimonial {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+```
+
+63. Set `signature` text and alignment.
+
+```css
+.signature {
+    font-size: 24px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+```
+
+> Commit already?
