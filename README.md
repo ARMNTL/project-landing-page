@@ -2,7 +2,7 @@
 
 ## Intro
 
-This is the first project from TOP. Meanies! So much to learn to complete this one. HTML, CSS, Flexbox. But, worth every sweat!
+This is the first project from [The Odin Project](https://www.theodinproject.com). Meanies! So much to learn to complete this one. HTML, CSS, Flexbox. But, worth every sweat!
 
 I struggled a bit containing my OCD side NOT to count the pixels. lol
 
